@@ -8,7 +8,10 @@
         toggleKeyPadClickedState
     } from "./store";
 
+    // used for managing audio object used in <audio> for context when managing audio state per keypad
     let looperKeyAudioState = {};
+
+    // local state effected from the general playing state and the clicked state of the specific keypad
     let looperKeyPausedState = {}
 
     const updatePausedState = () => {
@@ -19,9 +22,12 @@
         looperKeyPausedState = result
     }
 
+    // we want to update the paused state for each keypad whenever the general 'playing' state changes or the 'clicked'
+    // state of a button changes
     looperPadClickedState.subscribe(updatePausedState)
     playing.subscribe(updatePausedState);
 
+    // setup the responsive colorful grid
     function generateLayout(col) {
 
         return looperPads.map((looperPad, i) => {
