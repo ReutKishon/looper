@@ -2050,31 +2050,31 @@ var app = (function () {
     let playing = writable(false);
     let looperPads = [
         {
-            audioSrcUrl: "/media/120_future_funk_beats_25.mp3",
+            audioSrcUrl: "/looper/media/120_future_funk_beats_25.mp3",
         },
         {
-            audioSrcUrl: "/media/120_stutter_breakbeats_16.mp3",
+            audioSrcUrl: "/looper/media/120_stutter_breakbeats_16.mp3",
         },
         {
-            audioSrcUrl: "/media/Bass Warwick heavy funk groove on E 120 BPM.mp3",
+            audioSrcUrl: "/looper/media/Bass Warwick heavy funk groove on E 120 BPM.mp3",
         },
         {
-            audioSrcUrl: "/media/electric guitar coutry slide 120bpm - B.mp3",
+            audioSrcUrl: "/looper/media/electric guitar coutry slide 120bpm - B.mp3",
         },
         {
-            audioSrcUrl: "/media/FUD_120_StompySlosh.mp3",
+            audioSrcUrl: "/looper/media/FUD_120_StompySlosh.mp3",
         },
         {
-            audioSrcUrl: "/media/GrooveB_120bpm_Tanggu.mp3",
+            audioSrcUrl: "/looper/media/GrooveB_120bpm_Tanggu.mp3",
         },
         {
-            audioSrcUrl: "/media/MazePolitics_120_Perc.mp3",
+            audioSrcUrl: "/looper/media/MazePolitics_120_Perc.mp3",
         },
         {
-            audioSrcUrl: "/media/PAS3GROOVE1.03B.mp3",
+            audioSrcUrl: "/looper/media/PAS3GROOVE1.03B.mp3",
         },
         {
-            audioSrcUrl: "/media/SilentStar_120_Em_OrganSynth.mp3",
+            audioSrcUrl: "/looper/media/SilentStar_120_Em_OrganSynth.mp3",
         },
     ];
     let looperPadClickedState = writable({});
